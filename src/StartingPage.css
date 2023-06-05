@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+html,
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background-color: #f5f7fb;
+  margin: 0;
+  padding: 0;
+}
+
+.container > div.content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-family: "Karla";
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+  color: #293264;
+  margin: 0;
+}
+
+.sub-text {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  color: #293264;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.difficulty {
+  padding: 10px 15px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  background-color: #4d5b9e;
+  border: none;
+  outline: none;
+  color: #f5f7fb;
+  border-radius: 7px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+
+.difficulty:focus {
+  background-color: #303b73;
+}
+
+.start-btn {
+  background: #4d5b9e;
+  font-family: "Inter", sans-serif;
+  border-radius: 15px;
+  padding: 16px 28px;
+  color: #f5f7fb;
+  font-weight: 500;
+  font-size: 1rem;
+  text-align: center;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+
+.start-btn:hover {
+  background-color: #303b73;
+}
+
+.upper-style {
+  background-color: #fffad1;
+  position: fixed;
+  z-index: 100;
+  right: 0;
+  left: 90%;
+  top: 0;
+  border-radius: 60% 40% 40% 20% / 70% 50% 30% 25%;
+  padding: 20px;
+  width: 300px;
+  height: 250px;
+  position: fixed;
+  margin-top: 0;
+}
+
+.lower-style {
+  background-color: #deebf8;
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 80%;
+  right: 0;
+  border-radius: 60% 40% 40% 20% / 70% 50% 30% 25%;
+  padding: 20px;
+  width: 300px;
+  height: 250px;
+  position: fixed;
+}
